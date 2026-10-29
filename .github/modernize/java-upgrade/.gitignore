@@ -1,0 +1,19 @@
+
+# Java / Maven build output
+backend/target/
+**/target/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local credentials and certificates
+*.pem
+*.key
