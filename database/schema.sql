@@ -2,8 +2,7 @@
 -- Matches the architecture in the project brief:
 -- users, plants, predictions, diseases, care_guides, schemes, scheme_eligibility, health_history
 
-CREATE DATABASE IF NOT EXISTS agriplant_ai CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE agriplant_ai;
+USE defaultdb;
 
 -- ---------------------------------------------------------------
 -- Users (farmers / gardeners)
